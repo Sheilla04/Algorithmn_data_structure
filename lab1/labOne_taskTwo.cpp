@@ -1,13 +1,14 @@
 #include <iostream>
 #include <cstring>
+using namespace std;
 
 const int MAX_STUDENTS = 40;
 const int MAX_COURSES = 2;
 
 // Define Course structure
 struct Course {
-    std::string course_code;
-    std::string course_name;
+    string course_code;
+    string course_name;
 };
 
 // Define Grade structure
@@ -18,8 +19,8 @@ struct Grade {
 
 // Define Student structure
 struct Student {
-    std::string registration_number;
-    std::string name;
+    string registration_number;
+    string name;
     int age;
     Course* courses;
     Grade* grades;
@@ -54,7 +55,7 @@ void addStudent(Student* students, int& studentCount) {
 
         // ... (rest of the addStudent function remains the same)
     } else {
-        std::cout << "Maximum number of students reached.\n";
+        cout << "Maximum number of students reached.\n";
     }
 }
 
