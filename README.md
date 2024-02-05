@@ -1,2 +1,1 @@
-# Algorithmn_data_structure
-Work based on algorithmn and data structure unit
+SHEILLA ACHIENG'- SCT 212-0160/2022 - BCT 2.2 ALGORITHMN AND DATA STRUCTURE
